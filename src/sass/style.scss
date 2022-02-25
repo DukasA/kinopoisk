@@ -1,0 +1,14 @@
+@import 'vendor/reset.scss';
+@import 'base/mixins';
+@import 'base/variables';
+
+
+body {
+    background: #1e191f;
+    font-family: 'Open Sans, sans-serif';
+}
+
+
+@import 'blocks/container';
+@import 'blocks/header';
+@import 'blocks/movie';

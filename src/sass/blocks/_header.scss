@@ -1,0 +1,22 @@
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    height: 60px;
+
+    .header__logo {
+        font-size: 32px;
+        text-decoration: none;
+        color: $white;
+    }
+
+    .header__search {
+        padding: 8px;
+        border: 2px solid #696969;
+        border-radius: 5px;
+        background: transparent;
+        color: $white;
+        opacity: 0.7;
+    }
+}

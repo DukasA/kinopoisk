@@ -1,0 +1,68 @@
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .movie {
+        margin: 20px 10px 0 0;
+        margin-top: 20px;
+        position: relative;
+        width: 240px;
+        cursor: pointer;
+
+        
+        .movie__img {
+            width: 100%;
+            height: 360px;
+            
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .movie__info {
+            padding: 10px 0;
+
+            .movie__title {
+                margin-bottom: 5px;
+                letter-spacing: 2px;
+                font-size: 22px;
+                font-weight: 700;
+                color: $white;
+            }
+
+            .movie__category {
+                letter-spacing: 1px;
+                font-size: 18px;
+                color: #ffd80e;
+            }
+        }
+
+        .movie__average {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #1e191f;
+            color: $white;
+
+            &--green {
+                border: 2px solid green;
+            }
+
+            &--orange {
+                border: 2px solid orange;
+            }
+
+            &--red {
+                border: 2px solid red;
+            }
+        }
+    }
+}
